@@ -107,9 +107,10 @@ uvicorn main:app --reload
 
 > Be honest — judges appreciate transparency over overclaiming.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- Route recommendations are evaluated using a constrained scoring model rather than a production-grade global optimisation engine.
+- Regulatory classification is decision support and does not replace quality, safety, or compliance review.
+- Fleet availability and route conditions may become stale without real-time integrations.
+
 
 ---
 
