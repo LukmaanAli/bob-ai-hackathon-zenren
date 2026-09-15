@@ -16,7 +16,7 @@ team:
     email: "lukmaanali313@gmail.comm"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
     - name: "Om Tapaniya"                         # REQUIRED — Team member 1
-      email: ""
+      email: "omtapaniya10@gmail.com"
     - name: ""                         # Add more members by copying the two lines above
       email: ""
     - name: ""
