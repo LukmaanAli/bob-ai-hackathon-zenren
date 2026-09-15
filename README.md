@@ -76,17 +76,18 @@ The system identifies shipments affected by an active disruption, estimates impa
 ```bash
 # 1. Clone the repo
 git clone https://github.com/LukmaanAli/bob-ai-hackathon-zenren.git
-cd LukmaanAli/bob-ai-hackathon-zenren.git
+cd bob-ai-hackathon-zenren
 
 # 2. Install dependencies
-[your install command here]
+pip install -r requirements.txt
 
 # 3. Configure environment
-cp .env.example .env
+copy .env.example .env
+
 # Edit .env with your values
 
 # 4. Run the project
-[your run command here]
+uvicorn main:app --reload
 ```
 
 ---
