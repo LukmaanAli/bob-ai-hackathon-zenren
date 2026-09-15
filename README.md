@@ -1,17 +1,14 @@
 # 🚀 [Your Project Title Here]
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
-
----
 
 ## 👥 Team
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | [ZENREN |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | LukmaanAli — lukmaanali313@gmail.comm |
+| **Members** | Om Tapaniya, LukmaanAli, Dhruv, Adnan Vora |
 
 ---
 
