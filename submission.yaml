@@ -17,17 +17,15 @@ team:
   members:
     - name: "Om Tapaniya"                         # REQUIRED — Team member 1
       email: "omtapaniya10@gmail.com"
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "dhruv vaushnai"                         # Add more members by copying the two lines above
+      email: "24bsit162@charusat.edu.in"
+    - name: "adnan vora"
+      email: "24bsit166@charusat.edu.in"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Supply Chain Disruption Assistant & Fleet Utilisation Optimizer"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Supply Chain Disruption Assistant & Fleet
-Utilisation Optimizer ■ Ongoing Pain
 Supply chain disruptions — weather events, port strikes, geopolitical crises — cascade
 across hundreds of active shipments in ways that are impossible to track manually. Fleet
 assets (trucks, containers, vessels) sit idle while other routes are overloaded. Cold chain
@@ -35,12 +33,13 @@ shipments (vaccines, perishables) are especially vulnerable — a single tempera
 excursion across any leg can spoil a $500K+ cargo, but breaches are only discovered at
 delivery when it is too late.
 
-  solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Our Bob-powered control tower combines shipment, disruption, fleet, route, and
+  solution_summary: >  
+   Our Bob-powered control tower combines shipment, disruption, fleet, route, and
     IoT sensor data to identify operational risk and recommend explainable actions.
     It maps active disruptions to affected shipments, proposes rerouting and carrier
     alternatives, identifies suitable idle assets for redeployment, and classifies
-    cold-chain temperature excursions by severity before delivery..
+    cold-chain temperature excursions by severity before delivery..# REQUIRED — 1-3 sentences. What did you build?
+   
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
     - "Disruption impact mapping across active shipments and routes"                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
