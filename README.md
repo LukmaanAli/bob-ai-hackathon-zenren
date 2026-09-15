@@ -75,8 +75,8 @@ The system identifies shipments affected by an active disruption, estimates impa
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+git clone https://github.com/LukmaanAli/bob-ai-hackathon-zenren.git
+cd LukmaanAli/bob-ai-hackathon-zenren.git
 
 # 2. Install dependencies
 [your install command here]
