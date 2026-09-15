@@ -87,17 +87,13 @@ Python + Pandas
 
 | Decision | Rationale |
 |---|---|
-| Used IBM watsonx for risk analysis,
-severity classification, 
-and recommendation explanations | AI-assisted analysis provides faster and more
-understandable risk assessments without
-requiring custom AI models to be built from scratch.|
-| [Decision 2] | [Rationale 2] |
-| [Decision 3] | [Rationale 3] |
+| Used IBM watsonx for risk analysis, severity classification, and recommendation explanations|AI-assisted analysis provides faster and more understandable risk assessments without requiring custom AI models to be built from scratch.|
+| Used IBM Bob as the operations assistant and workflow coordinator | Allows operations users to ask natural-language questions and coordinates the relevant shipment, disruption, fleet, and cold-chain analysis |
+|Used separate analysis layers for disruption, fleet, routing, and cold-chain data| Separating these responsibilities makes the system easier to maintain, test, and scale while allowing the results to be combined in the Action Recommendation Layer. |
 
 ## IBM Technologies Used
 
 [Explain specifically HOW you used each IBM technology — not just that you used it.]
 
-- **[IBM Tech 1, e.g., watsonx.ai]:** [How it was used — e.g., "Used the `ibm/granite-13b-instruct-v2` model via the Python SDK to classify anomaly types from log text."]
-- **[IBM Tech 2]:** [How it was used]
+- **IBM watsonx:** Used to analyze supply-chain risks, classify cold-chain incident severity, and generate natural-language explanations and summaries for the recommended actions produced by the system.
+- **IBM Bob:** Used as the operations assistant to coordinate the supply-chain analysis workflow and allow users to query affected shipments, alternative routes, idle fleet assets, and cold-chain alerts using natural-language questions.
