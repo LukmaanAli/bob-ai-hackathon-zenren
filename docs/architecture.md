@@ -41,22 +41,30 @@ flowchart TD
 
 | Component | Technology | Responsibility |
 |---|---|---|
-| Frontend | [e.g., React 18] | [e.g., Dashboard UI, user interaction] |
-| Backend API | [e.g., FastAPI] | [e.g., Business logic, orchestration] |
-| AI / ML | [e.g., watsonx.ai] | [e.g., Anomaly scoring, classification] |
-| Database | [e.g., PostgreSQL] | [e.g., Storing pipeline events and scores] |
-| Notifications | [e.g., Slack API] | [e.g., Alerting on threshold breaches] |
+| Frontend | HTML / CSS / JavaScript | Operations dashboard, shipment monitoring and user interaction |
+| Backend API | FastAPI | Business logic, API endpoints and workflow orchestration |
+| Data Processing | Python / Pandas | Data cleaning, normalization and logistics data analysis |
+| AI / ML | IBM watsonx | Risk analysis, severity classification and recommendation explanations |
+| Orchestration | IBM Bob | Coordinates the supply-chain analysis workflow and user assistance |
+| Database | SQLite / PostgreSQL | Storing shipments, fleet data, alerts, analysis results and recommendations |
+| Data Sources | CSV / REST APIs | Providing logistics, disruption, fleet and cold-chain IoT data |
+| Monitoring | Python / Pandas | Detecting temperature excursions and identifying affected shipments |
+| Documentation | Mermaid | System architecture and data-flow documentation |
 
 ## Data Flow
 
-[Describe how data moves through your system from input to output.]
-
-1. [e.g., Pipeline logs are ingested via a webhook from GitHub Actions]
-2. [e.g., Logs are preprocessed and chunked into 512-token segments]
-3. [e.g., Each chunk is sent to the watsonx.ai inference endpoint]
-4. [e.g., Anomaly scores are stored in PostgreSQL]
-5. [e.g., The React dashboard polls the API every 30 seconds to refresh]
-
+1. Shipment, disruption, fleet and cold-chain IoT data are collected from CSV files and REST APIs.
+2. Python/Pandas cleans, validates and normalizes the incoming data.
+3. The Disruption Impact Mapper identifies shipments affected by active disruptions.
+4. The system evaluates alternative routes and carriers and generates rerouting recommendations.
+5. Fleet data is analyzed to identify idle assets suitable for redeployment.
+6. Cold-chain IoT logs are analyzed to detect temperature excursions and abnormal readings.
+7. Detected temperature excursions are classified according to their severity and cargo risk.
+8. The Action Recommendation Layer combines disruption, routing, carrier, fleet and cold-chain results.
+9. IBM watsonx generates explanations and summaries of the recommendations where configured.
+10. Results and alerts are stored in SQLite/PostgreSQL and exposed through FastAPI REST APIs.
+11. The operations dashboard displays affected shipments, recommended actions, idle assets and cold-chain alerts.
+12. IBM Bob assists the operations user in understanding and acting on the recommendations.
 ## Security Considerations
 
 [Note any security decisions relevant to the architecture — even if basic.]
