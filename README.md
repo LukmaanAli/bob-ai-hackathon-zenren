@@ -116,6 +116,8 @@ uvicorn main:app --reload
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+The strongest part of the solution is the connection between four operational views that are commonly handled separately: disruption impact, routing decisions, fleet capacity, and cold-chain risk.
+
+A single operational question can produce a prioritised answer with affected shipments, recommended actions, available assets, and sensor evidence instead of requiring operators to search multiple systems manually.
 
 ---
