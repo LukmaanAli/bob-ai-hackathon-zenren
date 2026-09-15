@@ -1,19 +1,20 @@
 ---
-name: "ZENREN"                            
-track: "AI"                          
-lead:
-  name: "LukmaanAli Shaikh"                           
-  email: "lukmaanali313@gmail.com"                        
-members:
-  - name: "Om Tapaniya"                         
-    email: "omtapaniya10@gmail.com"
-  - name: "dhruv vaushnai"                         
-    email: "24bsit162@charusat.edu.in"
-  - name: "adnan vora"
-    email: "24bsit166@charusat.edu.in"
+team:
+  name: "ZENREN"
+  track: "AI"
+  lead:
+    name: "LukmaanAli Shaikh"
+    email: "lukmaanali313@gmail.com"
+  members:
+    - name: "Om Tapaniya"
+      email: "omtapaniya10@gmail.com"
+    - name: "dhruv vaushnai"
+      email: "24bsit162@charusat.edu.in"
+    - name: "adnan vora"
+      email: "24bsit166@charusat.edu.in"
 
 submission:
-  title: "Supply Chain Disruption Assistant & Fleet Utilisation Optimizer"                            
+  title: "Supply Chain Disruption Assistant & Fleet Utilisation Optimizer"
 
   problem_statement: >
     Supply chain disruptions — weather events, port strikes, geopolitical crises — cascade
@@ -30,7 +31,7 @@ submission:
     alternatives, identifies suitable idle assets for redeployment, and classifies
     cold-chain temperature excursions by severity before delivery.
 
-  key_features:                        
+  key_features:
     - "Disruption impact mapping across active shipments and routes"
     - "Explainable rerouting and carrier alternative recommendations"
     - "Idle fleet asset discovery and redeployment matching"
