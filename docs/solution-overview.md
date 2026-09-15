@@ -87,7 +87,11 @@ Python + Pandas
 
 | Decision | Rationale |
 |---|---|
-| [e.g., Used watsonx.ai for anomaly detection] | [e.g., Pre-trained models reduced time-to-value vs. building from scratch] |
+| Used IBM watsonx for risk analysis,
+severity classification, 
+and recommendation explanations | AI-assisted analysis provides faster and more
+understandable risk assessments without
+requiring custom AI models to be built from scratch.|
 | [Decision 2] | [Rationale 2] |
 | [Decision 3] | [Rationale 3] |
 
