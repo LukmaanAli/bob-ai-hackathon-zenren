@@ -20,9 +20,32 @@
 [Optionally include a simple ASCII or Mermaid diagram here for quick reference.]
 
 ```
-[User] → [Frontend: React] → [API: FastAPI] → [watsonx.ai] → [Dashboard]
-                                    ↓
-                             [PostgreSQL DB]
+Data Sources
+     │
+     ▼
+Python + Pandas
+     │
+     ▼
+┌───────────────┬──────────────┬────────────────┐
+│ Disruption    │ Idle Fleet   │ Cold-Chain IoT │
+│ Impact        │ Matching     │ Monitoring     │
+└───────┬───────┴──────┬───────┴───────┬────────┘
+        └───────────────┼───────────────┘
+                        ▼
+             Action Recommendation
+                        │
+                        ▼
+                  IBM watsonx
+                        │
+                        ▼
+                   FastAPI API
+                        │
+              ┌─────────┴─────────┐
+              ▼                   ▼
+          Database          Operations UI
+              ▲
+              │
+           IBM Bob
 ```
 
 ## Key Design Decisions
