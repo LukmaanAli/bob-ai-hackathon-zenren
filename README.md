@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 Supply Chain Disruption Assistant & Fleet Utilisation Optimizer
 
 
 ## 👥 Team
@@ -16,25 +16,26 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Weather events, port strikes, geopolitical crises, and infrastructure failures can cascade across hundreds of active shipments. Operations teams must manually correlate disruption notices, shipment records, route constraints, available vehicles, and sensor logs.
 
+This creates delayed decisions, underused fleet capacity, avoidable rerouting costs, and late discovery of cold-chain temperature excursions. When a temperature breach is discovered only at delivery, high-value cargo may already be unusable.
 ---
 
 ## 💡 Solution
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+Our solution provides a unified operational view of shipment and fleet risk. It uses Bob to interpret operational questions, call the relevant workflows, and return prioritised recommendations.
 
+The system identifies shipments affected by an active disruption, estimates impact, recommends feasible reroutes or alternative carriers, matches idle fleet assets to urgent demand, and analyses cold-chain sensor logs for temperature excursions.
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** Active-disruption impact analysis.
+- **Feature 2:** Rerouting and alternative-carrier recommendations.
+- **Feature 3:** Idle truck, container, and vessel identification.
+- **Feature 4:** Fleet redeployment matching based on location, capacity, equipment, and availability.
 
 ---
 
@@ -42,11 +43,11 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python |
+| **Frameworks** | FastAPI |
+| **IBM Technologies** |IBM Bob workflow integration, IBM watsonx  |
+| **Databases** | PostgreSQL|
+| **Other** | Mermaid |
 
 ---
 
