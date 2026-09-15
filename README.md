@@ -5,8 +5,8 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [ZENREN |
-| **Track** | [AI / DevOps / Sustainability / Open] |
+| **Team Name** | ZENREN |
+| **Track** | AI  |
 | **Team Lead** | LukmaanAli — lukmaanali313@gmail.comm |
 | **Members** | Om Tapaniya, LukmaanAli, Dhruv, Adnan Vora |
 
