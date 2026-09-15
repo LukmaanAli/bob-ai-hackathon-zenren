@@ -69,9 +69,13 @@ flowchart TD
 
 [Note any security decisions relevant to the architecture — even if basic.]
 
-- [e.g., API keys stored in environment variables, never committed to git]
-- [e.g., All API routes require a Bearer token]
-- [e.g., Database credentials rotated via IBM Secrets Manager]
+-API keys and IBM watsonx credentials are stored in environment variables and are never committed to source control.
+API endpoints are protected using authentication and authorization where required.
+Database credentials are stored securely and should not be hard-coded in the application.
+Input data from CSV files, REST APIs, and IoT sources is validated and sanitized before processing.
+Sensitive shipment, fleet, and operational data is restricted to authorized operations users.
+HTTPS should be used for communication between the frontend, backend, external APIs, and AI services.
+Error responses avoid exposing database credentials, API keys, internal paths, or other sensitive system information.
 
 ## Scalability Notes
 
