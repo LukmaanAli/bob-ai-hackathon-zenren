@@ -5,13 +5,36 @@
 [Describe the overall architecture of your system. Replace the Mermaid diagram below with your actual architecture.]
 
 ```mermaid
-graph TD
-    A[User / Browser] -->|HTTP| B[Frontend - React]
-    B -->|REST API| C[Backend - FastAPI]
-    C -->|SDK| D[watsonx.ai]
-    C -->|Query| E[PostgreSQL]
-    C -->|Publish| F[Slack Webhook]
-    D -->|Inference Result| C
+flowchart TD
+    U[Operations User] --> B[IBM Bob Assistant]
+
+    B --> O[Orchestration Workflow]
+
+    O --> S[Shipment Data]
+    O --> D[Disruption Data]
+    O --> F[Fleet Asset Data]
+    O --> I[Cold-Chain IoT Logs]
+
+    S --> N[Data Normalisation]
+    D --> N
+    F --> N
+    I --> T[Temperature Analysis]
+
+    N --> M[Disruption Impact Mapper]
+    M --> R[Reroute and Carrier Recommendation]
+    M --> A[Idle Asset Matching]
+
+    T --> C[Excursion Detection]
+    C --> V[Severity Classification]
+
+    R --> X[Action Recommendation Layer]
+    A --> X
+    V --> X
+
+    X --> W[watsonx Explanation and Summary]
+    W --> B
+
+    X --> E[Alerts and Operations Dashboard]
 ```
 
 ## Components
