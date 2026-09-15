@@ -8,7 +8,6 @@
 #   - Use double quotes around all string values
 # =============================================================================
 
-team:
   name: "ZENREN"                            
   track: "AI"                          
   lead:
